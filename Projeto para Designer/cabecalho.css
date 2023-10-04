@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gabarito', cursive;
+}
+body {
+    background-color: rgb(38,41,46);
+    color: white;
+}
+
+header {
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 1.5rem 4rem;
+    width: 5%;
+    height: 20%;
+}
+
+.navegation {
+    width: 100vw;
+    padding-top: 4.2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navegation a {
+    color: white;
+    text-decoration: none;
+    
+    padding-left: 6rem;
+    padding-right: 8rem;
+}
+
+.navegation a:hover {
+    color: rgb(255, 196, 0);
+    transition: .5s all;
+}
