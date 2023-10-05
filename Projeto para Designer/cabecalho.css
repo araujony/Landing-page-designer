@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Gabarito', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 body {
     background-color: rgb(38,41,46);
@@ -23,20 +23,22 @@ header {
 
 .navegation {
     width: 100vw;
-    padding-top: 4.2rem;
+    padding-top: 3.8rem;
     padding-right: 1rem;
     padding-left: 1rem;
+    justify-content: space-between;
 }
 
 .navegation a {
     color: white;
     text-decoration: none;
+    font-weight: 200;
     
-    padding-left: 6rem;
-    padding-right: 8rem;
+    padding-left: 5rem;
+    padding-right: 4rem;
 }
 
 .navegation a:hover {
-    color: rgb(255, 196, 0);
+    color: rgb(62, 255, 3);
     transition: .5s all;
 }
