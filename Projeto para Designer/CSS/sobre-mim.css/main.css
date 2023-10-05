@@ -1,5 +1,5 @@
 .container {
-    padding-left: 4rem;
+    padding-left: 5rem;
     padding-top: 2rem;
 }
 .container h1 {
@@ -35,7 +35,7 @@
     width: 35%;
     height: 20%;
 
-    padding-right: 5%;
+    padding-left: 2%;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
